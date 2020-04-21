@@ -1,0 +1,193 @@
+* {
+    font-family: Corbel, sans-serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px,;
+    width: 100%;
+}
+
+.menu {
+    height:90px;
+    background-color:#f75718; 
+}
+
+.menu a {
+    float: left;
+    width: 25%;
+    height: 100%;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a:hover{
+    background-color: white;
+    color: #f75718;
+}
+
+.slide{
+    height: 315px;
+}
+
+.carousel-container{
+ 
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-slide img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 316px;
+}
+#previousBtn{
+   position: absolute;
+   top: 50%;
+   z-index: 10;
+    left: 1%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 1%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.produkty h1{
+    text-transform: uppercase;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.produkt{
+   height:200px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.produkt img {
+    height: 200px;
+}
+
+.marki {
+    height: 450px;
+  
+}
+
+.marki h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.marki img {
+    height: 25%;
+    width: 35%;
+}
+
+div.graf_marki{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.nasz_lokal {
+    height: 450px;
+}
+
+.nasz_lokal h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nasz_lokal img{
+    height: 150px;
+}
+
+div.lokal{
+    height: 325px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adres {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footmenu {
+    height: 100px;
+}
+
+.footmenu a{
+    height: 50%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    font-size: 30px;
+    justify-content: left;
+}
+
+.media {
+    height: 100px;
+    
+}
+
+.media a{
+    height:33%;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+
+}
+
+.footmenu a:hover{
+    color:#f75718;
+}
+
+.media a:hover{
+    color:#f75718;
+}
+
+.stopka{
+    background-color: #f75718 ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.stopka h1{
+    font-weight: bold;
+}
